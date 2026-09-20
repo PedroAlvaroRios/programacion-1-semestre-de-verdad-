@@ -1,0 +1,5 @@
+- revisar hacerca de los movimientos
+- implemetar vista de movimientos posibles
+- implemenetar version 2P
+- implementar una vista de movimientos jugados
+- implementar el cargar una partida

@@ -1,0 +1,5 @@
+las propiedades de un objeto en programacion son todo lo que describe a un objeto (color, tamaño, peso, etc).
+los eventos en un objeto son las acciones que se relacionan con el objeto
+
+un objeto puede ser heredado o invocado en diferentes programas
+el numero que representa el espacio en que se encuentra un "char " en un "string" se le llama "indice"

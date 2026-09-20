@@ -1,0 +1,4 @@
+# Ignorar binarios pesados
+*.exe
+*.wasm
+stockfish/

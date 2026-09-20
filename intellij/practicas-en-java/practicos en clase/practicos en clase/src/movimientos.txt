@@ -1,0 +1,4 @@
+Movimientos de la partida:
+1. d2d4
+2. d7d5
+3. c1f4

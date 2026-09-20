@@ -1,0 +1,29 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Función original (con indeterminación)
+def f(x):
+    return (x**2 - 1) / (x - 1)
+
+# Valores de x, evitando exactamente x=1
+x_vals = np.linspace(0, 2, 500)
+x_vals = x_vals[x_vals != 1]
+y_vals = f(x_vals)
+
+plt.figure(figsize=(7, 5))
+plt.plot(x_vals, y_vals, 'b-', linewidth=2, label=r'$f(x)=\frac{x^2-1}{x-1}$')
+
+# Marcar el hueco en (1,2)
+plt.plot(1, 2, 'wo', markeredgecolor='red', markersize=12, label='Hueco en (1,2)')
+
+# Línea simplificada (opcional)
+x_line = np.linspace(0, 2, 100)
+y_line = x_line + 1
+plt.plot(x_line, y_line, 'g--', alpha=0.5, label='y = x+1 (simplificada)')
+
+plt.xlabel('x')
+plt.ylabel('f(x)')
+plt.title('Indeterminación 0/0: función con hueco removible')
+plt.legend()
+plt.grid(True)
+plt.show()
